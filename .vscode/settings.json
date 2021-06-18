@@ -1,0 +1,15 @@
+{
+  "files.exclude": {
+    "**/.gitignore": true,
+    "**/.git": true,
+    "**/.vscode": true
+},
+"actions": [],
+"sqltools.connections": [
+    {
+        "dialect": "SQLite",
+        "name": "MyDBConnect2",
+        "database": "/home/user/projects/DEV2/gaurav.db"
+    }
+]
+}

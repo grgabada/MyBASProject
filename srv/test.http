@@ -1,0 +1,7 @@
+GET http://localhost:4004/sap/opu/odata/sap/API_SALES_ORDER/OrderSet
+
+###
+POST http://localhost:4004/sap/opu/odata/sap/API_SALES_ORDER/OrderSet
+Content-Type: application/json;IEEE754Compatible=true
+
+{"orderid":1006,"customername":"Ram 2","contactperson":"Ramesh","grossamount":"2000","currencycode":"INR"}
